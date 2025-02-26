@@ -1,0 +1,30 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: asmith
+      changes:
+        - createGlobalSecondaryIndex:
+            tableName: sampleTable01
+            attributeDefinitions:
+              - attributeDefinition:
+                  attributeName: Artist
+                  attributeType: S
+              - attributeDefinition:
+                  attributeName: AlbumTitle
+                  attributeType: S
+            globalSecondaryIndex:
+              indexName: globalIndex2Yaml
+              keySchema:
+                hashAttributeName: Artist
+                rangeAttributeName: AlbumTitle
+              projection:
+                projectionType: INCLUDE
+                nonKeyAttributes:
+                  - attributeName: SongTitle
+              provisionedThroughput:
+                readCapacityUnits: 9
+                writeCapacityUnits: 9
+      rollback:
+        - deleteGlobalSecondaryIndex:
+            tableName: sampleTable01
+            indexName: globalIndex2Yaml

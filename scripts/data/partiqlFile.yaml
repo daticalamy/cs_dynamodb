@@ -1,0 +1,14 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: asmith
+      changes:
+        - partiqlFile:
+            path: "scripts/data/test.partiql"
+            splitStatements: true
+            endDelimiter: "@@"
+        - rollback:
+            partiqlFile:
+              path: "scripts/data/test-rollback.partiql"
+              splitStatements: true
+              endDelimiter: "@@"

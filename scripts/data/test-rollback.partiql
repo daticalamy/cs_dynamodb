@@ -1,0 +1,1 @@
+DELETE FROM sampleTable02 WHERE Artist='Taras Chubay' AND SongTitle='Вона' @@ DELETE FROM sampleTable02 WHERE Artist='Alan Walker' AND SongTitle='Faded'
