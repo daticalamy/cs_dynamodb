@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-02-20T19:46:41.363Z",
+  "timestamp": "2026-06-22T18:19:56.492Z",
   "level": "INFO",
   "class": "liquibase.ui",
   "thread": "1",
-  "message": "####################################################\n##   _     _             _ _                      ##\n##  | |   (_)           (_) |                     ##\n##  | |    _  __ _ _   _ _| |__   __ _ ___  ___   ##\n##  | |   | |/ _` | | | | | '_ \\ / _` / __|/ _ \\  ##\n##  | |___| | (_| | |_| | | |_) | (_| \\__ \\  __/  ##\n##  \\_____/_|\\__, |\\__,_|_|_.__/ \\__,_|___/\\___|  ##\n##              | |                               ##\n##              |_|                               ##\n##                                                ## \n##  Get documentation at docs.liquibase.com       ##\n##  Get certified courses at learn.liquibase.com  ## \n##                                                ##\n####################################################\nStarting Liquibase at 13:46:41 using Java 11.0.23 (version 4.31.0 #6261 built at 2025-01-14 14:24+0000)",
+  "message": "####################################################\n##   _     _             _ _                      ##\n##  | |   (_)           (_) |                     ##\n##  | |    _  __ _ _   _ _| |__   __ _ ___  ___   ##\n##  | |   | |/ _` | | | | | '_ \\ / _` / __|/ _ \\  ##\n##  | |___| | (_| | |_| | | |_) | (_| \\__ \\  __/  ##\n##  \\_____/_|\\__, |\\__,_|_|_.__/ \\__,_|___/\\___|  ##\n##              | |                               ##\n##              |_|                               ##\n##                                                ## \n##  Get documentation at docs.liquibase.com       ##\n##  Get certified courses at learn.liquibase.com  ## \n##                                                ##\n####################################################\nStarting Liquibase Secure at 13:19:56 using Java 21.0.10 (version 5.2.0 #62 built at 2026-06-09 16:53:02 UTC)",
   "changesetOutcome": "NOOP",
   "liquibaseSystemUser": "",
   "deploymentOutcome": "NOOP",
@@ -26,11 +26,11 @@
   "liquibaseSystemName": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:41.396Z",
+  "timestamp": "2026-06-22T18:19:56.510Z",
   "level": "INFO",
   "class": "liquibase.ui",
   "thread": "1",
-  "message": "Liquibase Version: 4.31.0",
+  "message": "Liquibase Secure Version: 5.2.0",
   "changesetOutcome": "NOOP",
   "liquibaseSystemUser": "",
   "deploymentOutcome": "NOOP",
@@ -53,11 +53,11 @@
   "liquibaseSystemName": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:41.409Z",
+  "timestamp": "2026-06-22T18:19:56.518Z",
   "level": "INFO",
   "class": "liquibase.ui",
   "thread": "1",
-  "message": "Liquibase Pro 4.31.0 by Liquibase licensed to Liquibase_SA until Wed Dec 31 22:59:59 CST 2025",
+  "message": "Liquibase Secure license issued to Liquibase_CS_Team, valid until Wed Dec 30 18:00:00 CST 2026",
   "changesetOutcome": "NOOP",
   "liquibaseSystemUser": "",
   "deploymentOutcome": "NOOP",
@@ -80,7 +80,7 @@
   "liquibaseSystemName": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:41.430Z",
+  "timestamp": "2026-06-22T18:19:56.533Z",
   "level": "INFO",
   "class": "liquibase.integration",
   "thread": "1",
@@ -91,7 +91,7 @@
   "liquibaseSchemaName": "",
   "deploymentOutcomeCount": "0",
   "liquibaseHostName": "Liquibase",
-  "liquibaseVersion": "4.31.0",
+  "liquibaseVersion": "5.2.0",
   "operationStop": "",
   "changelogFile": "",
   "changesetsUpdated": {
@@ -108,7 +108,7 @@
   "liquibaseSystemName": "Liquibase"
 }
 {
-  "timestamp": "2025-02-20T19:46:41.455Z",
+  "timestamp": "2026-06-22T18:19:57.168Z",
   "level": "WARNING",
   "class": "liquibase.configuration",
   "thread": "1",
@@ -125,7 +125,7 @@
     "changeset": "null",
     "changesetCount": 0
   },
-  "operationStart": "2025-02-20T19:46:41.444Z",
+  "operationStart": "2026-06-22T18:19:56.547Z",
   "liquibaseCommandName": "status",
   "deploymentId": "",
   "rowsAffected": "0",
@@ -136,7 +136,7 @@
   "liquibaseSystemName": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:42.807Z",
+  "timestamp": "2026-06-22T18:19:58.353Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -155,7 +155,7 @@
     "changeset": "null",
     "changesetCount": 0
   },
-  "operationStart": "2025-02-20T19:46:41.444Z",
+  "operationStart": "2026-06-22T18:19:56.547Z",
   "liquibaseCommandName": "status",
   "deploymentId": "",
   "rowsAffected": "0",
@@ -167,7 +167,7 @@
   "commandContextFilter": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:43.612Z",
+  "timestamp": "2026-06-22T18:19:59.025Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -186,7 +186,7 @@
     "changeset": "null",
     "changesetCount": 0
   },
-  "operationStart": "2025-02-20T19:46:41.444Z",
+  "operationStart": "2026-06-22T18:19:56.547Z",
   "liquibaseCommandName": "status",
   "deploymentId": "",
   "rowsAffected": "0",
@@ -198,7 +198,7 @@
   "commandContextFilter": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:43.622Z",
+  "timestamp": "2026-06-22T18:19:59.033Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -217,7 +217,7 @@
     "changeset": "null",
     "changesetCount": 0
   },
-  "operationStart": "2025-02-20T19:46:41.444Z",
+  "operationStart": "2026-06-22T18:19:56.547Z",
   "liquibaseCommandName": "status",
   "deploymentId": "",
   "rowsAffected": "0",
@@ -229,7 +229,7 @@
   "commandContextFilter": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:43.631Z",
+  "timestamp": "2026-06-22T18:19:59.040Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -248,7 +248,7 @@
     "changeset": "null",
     "changesetCount": 0
   },
-  "operationStart": "2025-02-20T19:46:41.444Z",
+  "operationStart": "2026-06-22T18:19:56.547Z",
   "liquibaseCommandName": "status",
   "deploymentId": "",
   "rowsAffected": "0",
@@ -260,7 +260,7 @@
   "commandContextFilter": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:43.641Z",
+  "timestamp": "2026-06-22T18:19:59.049Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -279,7 +279,7 @@
     "changeset": "null",
     "changesetCount": 0
   },
-  "operationStart": "2025-02-20T19:46:41.444Z",
+  "operationStart": "2026-06-22T18:19:56.547Z",
   "liquibaseCommandName": "status",
   "deploymentId": "",
   "rowsAffected": "0",
@@ -291,7 +291,7 @@
   "commandContextFilter": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:43.649Z",
+  "timestamp": "2026-06-22T18:19:59.059Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -310,7 +310,7 @@
     "changeset": "null",
     "changesetCount": 0
   },
-  "operationStart": "2025-02-20T19:46:41.444Z",
+  "operationStart": "2026-06-22T18:19:56.547Z",
   "liquibaseCommandName": "status",
   "deploymentId": "",
   "rowsAffected": "0",
@@ -322,7 +322,7 @@
   "commandContextFilter": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:43.654Z",
+  "timestamp": "2026-06-22T18:19:59.064Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -341,7 +341,7 @@
     "changeset": "null",
     "changesetCount": 0
   },
-  "operationStart": "2025-02-20T19:46:41.444Z",
+  "operationStart": "2026-06-22T18:19:56.547Z",
   "liquibaseCommandName": "status",
   "deploymentId": "",
   "rowsAffected": "0",
@@ -353,12 +353,12 @@
   "commandContextFilter": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:43.657Z",
+  "timestamp": "2026-06-22T18:19:59.066Z",
   "level": "WARNING",
   "class": "liquibase.changelog",
   "thread": "1",
   "message": "included file scripts/data/test-rollback.partiql/scripts/data/test-rollback.partiql is not a recognized file type",
-  "exception": "\r\nliquibase.exception.UnknownChangelogFormatException: Cannot find parser that supports scripts/data/test-rollback.partiql\r\n\tat liquibase.parser.ChangeLogParserFactory.getParser(ChangeLogParserFactory.java:59)\r\n\tat liquibase.changelog.DatabaseChangeLog.include(DatabaseChangeLog.java:1070)\r\n\tat liquibase.changelog.DatabaseChangeLog.lambda$includeAll$6(DatabaseChangeLog.java:840)\r\n\tat liquibase.Scope.lambda$child$0(Scope.java:201)\r\n\tat liquibase.Scope.child(Scope.java:210)\r\n\tat liquibase.Scope.child(Scope.java:200)\r\n\tat liquibase.Scope.child(Scope.java:179)\r\n\tat liquibase.changelog.DatabaseChangeLog.includeAll(DatabaseChangeLog.java:837)\r\n\tat liquibase.changelog.DatabaseChangeLog.handleIncludeAll(DatabaseChangeLog.java:613)\r\n\tat liquibase.changelog.DatabaseChangeLog.handleChildNodeHelper(DatabaseChangeLog.java:477)\r\n\tat liquibase.changelog.DatabaseChangeLog.handleChildNode(DatabaseChangeLog.java:458)\r\n\tat liquibase.changelog.DatabaseChangeLog.load(DatabaseChangeLog.java:425)\r\n\tat liquibase.parser.core.xml.AbstractChangeLogParser.parse(AbstractChangeLogParser.java:23)\r\n\tat liquibase.command.core.helpers.DatabaseChangelogCommandStep.lambda$getDatabaseChangeLog$0(DatabaseChangelogCommandStep.java:125)\r\n\tat liquibase.Scope.child(Scope.java:210)\r\n\tat liquibase.Scope.child(Scope.java:186)\r\n\tat liquibase.command.core.helpers.DatabaseChangelogCommandStep.getDatabaseChangeLog(DatabaseChangelogCommandStep.java:124)\r\n\tat liquibase.command.core.helpers.DatabaseChangelogCommandStep.run(DatabaseChangelogCommandStep.java:83)\r\n\tat liquibase.command.CommandScope.lambda$execute$6(CommandScope.java:253)\r\n\tat liquibase.Scope.child(Scope.java:210)\r\n\tat liquibase.Scope.child(Scope.java:186)\r\n\tat liquibase.command.CommandScope.execute(CommandScope.java:241)\r\n\tat liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:51)\r\n\tat liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:21)\r\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:2045)\r\n\tat picocli.CommandLine.access$1500(CommandLine.java:148)\r\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2465)\r\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2457)\r\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2419)\r\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2277)\r\n\tat picocli.CommandLine$RunLast.execute(CommandLine.java:2421)\r\n\tat picocli.CommandLine.execute(CommandLine.java:2174)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$2(LiquibaseCommandLine.java:414)\r\n\tat liquibase.Scope.child(Scope.java:210)\r\n\tat liquibase.Scope.child(Scope.java:186)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$3(LiquibaseCommandLine.java:389)\r\n\tat liquibase.Scope.child(Scope.java:210)\r\n\tat liquibase.Scope.child(Scope.java:186)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:386)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:103)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:121)\r\n",
+  "exception": "\r\nliquibase.exception.UnknownChangelogFormatException: Cannot find parser that supports scripts/data/test-rollback.partiql\r\n\tat liquibase.parser.ChangeLogParserFactory.getParser(SourceFile:59)\r\n\tat liquibase.changelog.DatabaseChangeLog.include(SourceFile:1135)\r\n\tat liquibase.changelog.DatabaseChangeLog.lambda$includeAll$3(SourceFile:886)\r\n\tat liquibase.Scope.lambda$child$0(SourceFile:246)\r\n\tat liquibase.Scope.child(SourceFile:255)\r\n\tat liquibase.Scope.child(SourceFile:245)\r\n\tat liquibase.Scope.child(SourceFile:224)\r\n\tat liquibase.changelog.DatabaseChangeLog.includeAll(SourceFile:883)\r\n\tat liquibase.changelog.DatabaseChangeLog.handleIncludeAll(SourceFile:656)\r\n\tat liquibase.changelog.DatabaseChangeLog.handleChildNodeHelper(SourceFile:491)\r\n\tat liquibase.changelog.DatabaseChangeLog.handleChildNode(SourceFile:470)\r\n\tat liquibase.changelog.DatabaseChangeLog.load(SourceFile:437)\r\n\tat liquibase.parser.core.xml.AbstractChangeLogParser.parse(SourceFile:23)\r\n\tat liquibase.command.core.helpers.DatabaseChangelogCommandStep.lambda$getDatabaseChangeLog$0(SourceFile:143)\r\n\tat liquibase.Scope.lambda$child$0(SourceFile:246)\r\n\tat liquibase.Scope.child(SourceFile:255)\r\n\tat liquibase.Scope.child(SourceFile:245)\r\n\tat liquibase.Scope.child(SourceFile:224)\r\n\tat liquibase.Scope.child(SourceFile:312)\r\n\tat liquibase.Scope.child(SourceFile:316)\r\n\tat liquibase.command.core.helpers.DatabaseChangelogCommandStep.getDatabaseChangeLog(SourceFile:138)\r\n\tat liquibase.command.core.helpers.DatabaseChangelogCommandStep.run(SourceFile:84)\r\n\tat liquibase.command.CommandScope.lambda$execute$5(SourceFile:314)\r\n\tat liquibase.Scope.child(SourceFile:255)\r\n\tat liquibase.Scope.child(SourceFile:231)\r\n\tat liquibase.command.CommandScope.execute(SourceFile:258)\r\n\tat liquibase.integration.commandline.CommandRunner.call(SourceFile:51)\r\n\tat liquibase.integration.commandline.CommandRunner.call(SourceFile:21)\r\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:2031)\r\n\tat picocli.CommandLine.access$1500(CommandLine.java:148)\r\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2469)\r\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2461)\r\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2423)\r\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2277)\r\n\tat picocli.CommandLine$RunLast.execute(CommandLine.java:2425)\r\n\tat picocli.CommandLine.execute(CommandLine.java:2174)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$2(SourceFile:442)\r\n\tat liquibase.Scope.child(SourceFile:255)\r\n\tat liquibase.Scope.child(SourceFile:231)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$3(SourceFile:417)\r\n\tat liquibase.Scope.child(SourceFile:255)\r\n\tat liquibase.Scope.child(SourceFile:231)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.execute(SourceFile:414)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.main(SourceFile:117)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat liquibase.integration.commandline.LiquibaseLauncher.main(SourceFile:120)\r\n",
   "changesetOutcome": "NOOP",
   "liquibaseSystemUser": "AmySmith",
   "deploymentOutcome": "NOOP",
@@ -373,7 +373,7 @@
     "changeset": "null",
     "changesetCount": 0
   },
-  "operationStart": "2025-02-20T19:46:41.444Z",
+  "operationStart": "2026-06-22T18:19:56.547Z",
   "liquibaseCommandName": "status",
   "deploymentId": "",
   "rowsAffected": "0",
@@ -385,7 +385,7 @@
   "commandContextFilter": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:43.661Z",
+  "timestamp": "2026-06-22T18:19:59.069Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -404,7 +404,7 @@
     "changeset": "null",
     "changesetCount": 0
   },
-  "operationStart": "2025-02-20T19:46:41.444Z",
+  "operationStart": "2026-06-22T18:19:56.547Z",
   "liquibaseCommandName": "status",
   "deploymentId": "",
   "rowsAffected": "0",
@@ -416,12 +416,12 @@
   "commandContextFilter": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:43.662Z",
+  "timestamp": "2026-06-22T18:19:59.071Z",
   "level": "WARNING",
   "class": "liquibase.changelog",
   "thread": "1",
   "message": "included file scripts/data/test.partiql/scripts/data/test.partiql is not a recognized file type",
-  "exception": "\r\nliquibase.exception.UnknownChangelogFormatException: Cannot find parser that supports scripts/data/test.partiql\r\n\tat liquibase.parser.ChangeLogParserFactory.getParser(ChangeLogParserFactory.java:59)\r\n\tat liquibase.changelog.DatabaseChangeLog.include(DatabaseChangeLog.java:1070)\r\n\tat liquibase.changelog.DatabaseChangeLog.lambda$includeAll$6(DatabaseChangeLog.java:840)\r\n\tat liquibase.Scope.lambda$child$0(Scope.java:201)\r\n\tat liquibase.Scope.child(Scope.java:210)\r\n\tat liquibase.Scope.child(Scope.java:200)\r\n\tat liquibase.Scope.child(Scope.java:179)\r\n\tat liquibase.changelog.DatabaseChangeLog.includeAll(DatabaseChangeLog.java:837)\r\n\tat liquibase.changelog.DatabaseChangeLog.handleIncludeAll(DatabaseChangeLog.java:613)\r\n\tat liquibase.changelog.DatabaseChangeLog.handleChildNodeHelper(DatabaseChangeLog.java:477)\r\n\tat liquibase.changelog.DatabaseChangeLog.handleChildNode(DatabaseChangeLog.java:458)\r\n\tat liquibase.changelog.DatabaseChangeLog.load(DatabaseChangeLog.java:425)\r\n\tat liquibase.parser.core.xml.AbstractChangeLogParser.parse(AbstractChangeLogParser.java:23)\r\n\tat liquibase.command.core.helpers.DatabaseChangelogCommandStep.lambda$getDatabaseChangeLog$0(DatabaseChangelogCommandStep.java:125)\r\n\tat liquibase.Scope.child(Scope.java:210)\r\n\tat liquibase.Scope.child(Scope.java:186)\r\n\tat liquibase.command.core.helpers.DatabaseChangelogCommandStep.getDatabaseChangeLog(DatabaseChangelogCommandStep.java:124)\r\n\tat liquibase.command.core.helpers.DatabaseChangelogCommandStep.run(DatabaseChangelogCommandStep.java:83)\r\n\tat liquibase.command.CommandScope.lambda$execute$6(CommandScope.java:253)\r\n\tat liquibase.Scope.child(Scope.java:210)\r\n\tat liquibase.Scope.child(Scope.java:186)\r\n\tat liquibase.command.CommandScope.execute(CommandScope.java:241)\r\n\tat liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:51)\r\n\tat liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:21)\r\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:2045)\r\n\tat picocli.CommandLine.access$1500(CommandLine.java:148)\r\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2465)\r\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2457)\r\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2419)\r\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2277)\r\n\tat picocli.CommandLine$RunLast.execute(CommandLine.java:2421)\r\n\tat picocli.CommandLine.execute(CommandLine.java:2174)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$2(LiquibaseCommandLine.java:414)\r\n\tat liquibase.Scope.child(Scope.java:210)\r\n\tat liquibase.Scope.child(Scope.java:186)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$3(LiquibaseCommandLine.java:389)\r\n\tat liquibase.Scope.child(Scope.java:210)\r\n\tat liquibase.Scope.child(Scope.java:186)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:386)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:103)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:121)\r\n",
+  "exception": "\r\nliquibase.exception.UnknownChangelogFormatException: Cannot find parser that supports scripts/data/test.partiql\r\n\tat liquibase.parser.ChangeLogParserFactory.getParser(SourceFile:59)\r\n\tat liquibase.changelog.DatabaseChangeLog.include(SourceFile:1135)\r\n\tat liquibase.changelog.DatabaseChangeLog.lambda$includeAll$3(SourceFile:886)\r\n\tat liquibase.Scope.lambda$child$0(SourceFile:246)\r\n\tat liquibase.Scope.child(SourceFile:255)\r\n\tat liquibase.Scope.child(SourceFile:245)\r\n\tat liquibase.Scope.child(SourceFile:224)\r\n\tat liquibase.changelog.DatabaseChangeLog.includeAll(SourceFile:883)\r\n\tat liquibase.changelog.DatabaseChangeLog.handleIncludeAll(SourceFile:656)\r\n\tat liquibase.changelog.DatabaseChangeLog.handleChildNodeHelper(SourceFile:491)\r\n\tat liquibase.changelog.DatabaseChangeLog.handleChildNode(SourceFile:470)\r\n\tat liquibase.changelog.DatabaseChangeLog.load(SourceFile:437)\r\n\tat liquibase.parser.core.xml.AbstractChangeLogParser.parse(SourceFile:23)\r\n\tat liquibase.command.core.helpers.DatabaseChangelogCommandStep.lambda$getDatabaseChangeLog$0(SourceFile:143)\r\n\tat liquibase.Scope.lambda$child$0(SourceFile:246)\r\n\tat liquibase.Scope.child(SourceFile:255)\r\n\tat liquibase.Scope.child(SourceFile:245)\r\n\tat liquibase.Scope.child(SourceFile:224)\r\n\tat liquibase.Scope.child(SourceFile:312)\r\n\tat liquibase.Scope.child(SourceFile:316)\r\n\tat liquibase.command.core.helpers.DatabaseChangelogCommandStep.getDatabaseChangeLog(SourceFile:138)\r\n\tat liquibase.command.core.helpers.DatabaseChangelogCommandStep.run(SourceFile:84)\r\n\tat liquibase.command.CommandScope.lambda$execute$5(SourceFile:314)\r\n\tat liquibase.Scope.child(SourceFile:255)\r\n\tat liquibase.Scope.child(SourceFile:231)\r\n\tat liquibase.command.CommandScope.execute(SourceFile:258)\r\n\tat liquibase.integration.commandline.CommandRunner.call(SourceFile:51)\r\n\tat liquibase.integration.commandline.CommandRunner.call(SourceFile:21)\r\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:2031)\r\n\tat picocli.CommandLine.access$1500(CommandLine.java:148)\r\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2469)\r\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2461)\r\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2423)\r\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2277)\r\n\tat picocli.CommandLine$RunLast.execute(CommandLine.java:2425)\r\n\tat picocli.CommandLine.execute(CommandLine.java:2174)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$2(SourceFile:442)\r\n\tat liquibase.Scope.child(SourceFile:255)\r\n\tat liquibase.Scope.child(SourceFile:231)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$3(SourceFile:417)\r\n\tat liquibase.Scope.child(SourceFile:255)\r\n\tat liquibase.Scope.child(SourceFile:231)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.execute(SourceFile:414)\r\n\tat liquibase.integration.commandline.LiquibaseCommandLine.main(SourceFile:117)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat liquibase.integration.commandline.LiquibaseLauncher.main(SourceFile:120)\r\n",
   "changesetOutcome": "NOOP",
   "liquibaseSystemUser": "AmySmith",
   "deploymentOutcome": "NOOP",
@@ -436,7 +436,7 @@
     "changeset": "null",
     "changesetCount": 0
   },
-  "operationStart": "2025-02-20T19:46:41.444Z",
+  "operationStart": "2026-06-22T18:19:56.547Z",
   "liquibaseCommandName": "status",
   "deploymentId": "",
   "rowsAffected": "0",
@@ -448,7 +448,7 @@
   "commandContextFilter": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:43.771Z",
+  "timestamp": "2026-06-22T18:19:59.359Z",
   "level": "INFO",
   "class": "liquibase.command",
   "thread": "1",
@@ -458,17 +458,17 @@
   "deploymentOutcome": "NOOP",
   "liquibaseSchemaName": "LIQUIBASE",
   "commandLabelFilter": "",
-  "liquibaseInternalCommand": "status",
+  "liquibaseInternalCommand": "",
   "deploymentOutcomeCount": "0",
   "liquibaseVersion": "",
-  "operationStop": "2025-02-20T19:46:43.771Z",
+  "operationStop": "2026-06-22T18:19:59.359Z",
   "operationOutcome": "success",
   "changelogFile": "changelogs/changelog.xml",
   "changesetsUpdated": {
     "changeset": "null",
     "changesetCount": 0
   },
-  "operationStart": "2025-02-20T19:46:41.444Z",
+  "operationStart": "2026-06-22T18:19:56.547Z",
   "liquibaseCommandName": "status",
   "deploymentId": "",
   "rowsAffected": "0",
@@ -480,7 +480,7 @@
   "commandContextFilter": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:44.028Z",
+  "timestamp": "2026-06-22T18:19:59.659Z",
   "level": "INFO",
   "class": "liquibase.ui",
   "thread": "1",
@@ -498,7 +498,7 @@
     "changeset": "null",
     "changesetCount": 0
   },
-  "operationStart": "2025-02-20T19:46:41.444Z",
+  "operationStart": "2026-06-22T18:19:56.547Z",
   "liquibaseCommandName": "status",
   "deploymentId": "",
   "rowsAffected": "0",
@@ -509,7 +509,7 @@
   "liquibaseSystemName": ""
 }
 {
-  "timestamp": "2025-02-20T19:46:44.029Z",
+  "timestamp": "2026-06-22T18:19:59.660Z",
   "level": "INFO",
   "class": "liquibase.ui",
   "thread": "1",
@@ -527,7 +527,7 @@
     "changeset": "null",
     "changesetCount": 0
   },
-  "operationStart": "2025-02-20T19:46:41.444Z",
+  "operationStart": "2026-06-22T18:19:56.547Z",
   "liquibaseCommandName": "status",
   "deploymentId": "",
   "rowsAffected": "0",
