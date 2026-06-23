@@ -1,0 +1,5 @@
+DELETE FROM Orders2 WHERE orderId='005';
+DELETE FROM Orders2 WHERE orderId='004';
+DELETE FROM Orders2 WHERE orderId='003';
+DELETE FROM Orders2 WHERE orderId='002';
+DELETE FROM Orders2 WHERE orderId='001';

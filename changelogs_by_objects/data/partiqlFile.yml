@@ -1,0 +1,44 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: asmith
+      changes:
+        - partiqlFile:
+            path: "../scripts/orders1.partiql"
+            splitStatements: true
+            relativeToChangelogFile: true
+        - rollback:
+            partiqlFile:
+              path: "../scripts/orders1-rollback.partiql"
+              splitStatements: true
+              relativeToChangelogFile: true
+
+  - changeSet:
+      id: 3
+      author: asmith
+      ignore: true
+      changes:
+        - partiqlFile:
+            path: "../scripts/ordersWithError.partiql"
+            splitStatements: true
+            relativeToChangelogFile: true
+        - rollback:
+            partiqlFile:
+              path: "../scripts/ordersWithError-rollback.partiql"
+              splitStatements: true
+              relativeToChangelogFile: true
+
+  - changeSet:
+      id: 4
+      author: asmith
+      ignore: true
+      changes:
+        - partiqlFile:
+            path: "../scripts/orders100.partiql"
+            splitStatements: true
+            relativeToChangelogFile: true
+        - rollback:
+            partiqlFile:
+              path: "../scripts/orders100-rollback.partiql"
+              splitStatements: true
+              relativeToChangelogFile: true

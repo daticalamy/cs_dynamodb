@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: amsith
+      changes:
+        - updateDynamoTable:
+            tableName: sampleTable01
+            billingMode: PAY_PER_REQUEST
+      rollback:
+        updateDynamoTable:
+          tableName: sampleTable01
+          billingMode: PROVISIONED
+          provisionedThroughput:
+            readCapacityUnits: 5
+            writeCapacityUnits: 5

@@ -1,0 +1,5 @@
+INSERT INTO Orders VALUE {'orderId': '001', 'customerId': 'CUST-101', 'product': 'Laptop', 'quantity': 1, 'status': 'pending'};
+INSERT INTO Orders VALUE {'orderId': '002', 'customerId': 'CUST-202', 'product': 'Headphones', 'quantity': 2, 'status': 'shipped'};
+INSERT INTO Orders VALUE {'orderId': '003', 'customerId': 'CUST-303', 'product': 'Keyboard', 'quantity': 1, 'status': 'delivered'};
+INSERT INTO Orders VALUE {'orderId': '004', 'customerId': 'CUST-101', 'product': 'Mouse', 'quantity': 3, 'status': 'pending'};
+INSERT INTO Orders VALUE {'orderId': '005', 'customerId': 'CUST-404', 'product': 'Monitor', 'quantity': 1, 'status': 'processing'};

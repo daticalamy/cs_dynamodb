@@ -1,0 +1,13 @@
+databaseChangeLog:
+- include:
+    file: releases/release-1.0.0/release-1.0.0.partiql.yaml
+    relativeToChangelogFile: true
+    errorIfMissing: false
+- include:
+    file: releases/release-1.0.1/release-1.0.1.partiql.yaml
+    relativeToChangelogFile: true
+    errorIfMissing: false
+- include:
+    file: releases/release-1.0.1/release-1.0.2.partiql.yaml
+    relativeToChangelogFile: true
+    errorIfMissing: false
