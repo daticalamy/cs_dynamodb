@@ -1,0 +1,33 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: asmith
+      changes:
+        - createDynamoTable:
+            tableName: Orders2
+            keySchema:
+              hashAttributeName: orderId
+            attributeDefinitions:
+              - attributeDefinition:
+                  attributeName: orderId
+                  attributeType: S
+            provisionedThroughput:
+                readCapacityUnits: 10
+                writeCapacityUnits: 10
+      rollback:
+        deleteDynamoTable:
+          tableName: Orders2
+
+  - changeSet:
+      id: 2
+      author: asmith
+      changes:
+        - partiqlFile:
+            path: "orders2.partiql"
+            splitStatements: true
+            relativeToChangelogFile: true
+        - rollback:
+            partiqlFile:
+              path: "orders2-rollback.partiql"
+              splitStatements: true
+              relativeToChangelogFile: true

@@ -1,0 +1,1 @@
+INSERT INTO sampleTable02 value {'Artist' : 'Taras Chubay','SongTitle' : 'Вона'} @@ INSERT INTO sampleTable02 value {'Artist' : 'Alan Walker','SongTitle' : 'Faded'}

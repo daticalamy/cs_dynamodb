@@ -1,0 +1,73 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: asmith
+      changes:
+        - createDynamoTable:
+            tableName: sampleTable01
+            billingMode: PROVISIONED
+            tableClass: STANDARD
+            deletionProtectionEnabled: false
+            keySchema:
+              hashAttributeName: Artist
+              rangeAttributeName: SongTitle
+            attributeDefinitions:
+              - attributeDefinition:
+                  attributeName: Artist
+                  attributeType: S
+              - attributeDefinition:
+                  attributeName: SongTitle
+                  attributeType: S
+              - attributeDefinition:
+                  attributeName: Album
+                  attributeType: N
+            provisionedThroughput:
+                readCapacityUnits: 5
+                writeCapacityUnits: 5
+            localSecondaryIndexes:
+                - localSecondaryIndex:
+                    indexName: localSecondaryIndex
+                    keySchema:
+                      hashAttributeName: Artist
+                      rangeAttributeName: Album
+                    projection:
+                        projectionType: INCLUDE
+                        nonKeyAttributes:
+                          - attributeName: SongTitle
+            globalSecondaryIndexes:
+                - globalSecondaryIndex:
+                    indexName: SongTitleGlobalIndex
+                    keySchema:
+                      hashAttributeName: Artist
+                      rangeAttributeName: SongTitle
+                    projection:
+                        projectionType: INCLUDE
+                        nonKeyAttributes:
+                          - attributeName: Album
+                    provisionedThroughput:
+                        readCapacityUnits: 5
+                        writeCapacityUnits: 5
+            streamSpecification:
+              streamEnabled: true
+              streamViewType: NEW_IMAGE
+            sseSpecification:
+              enabled: true
+              sseType: KMS
+              kmsMasterKeyId: alias/aws/dynamodb
+            tags:
+              - key: tag
+                value: tagValue
+              - key: tag2
+                value: tagValue2
+      rollback:
+        deleteDynamoTable:
+          tableName: sampleTable01
+
+#  - changeSet:
+#      id: 2
+#      author: asmith
+#      changes:
+#        - deleteDynamoTable:
+#            tableName: sampleTable01
+#      rollback:
+#        empty

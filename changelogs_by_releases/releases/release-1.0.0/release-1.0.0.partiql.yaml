@@ -1,0 +1,31 @@
+databaseChangeLog:
+- changeSet:
+      id: 1
+      author: asmith
+      comment: partiql with splitStatements and endDelimiter test
+      changes:
+        - partiql:
+            splitStatements: true
+            endDelimiter: "@@"
+            partiql: "INSERT INTO sampleTable02 value {'Artist' : 'Prince','SongTitle' : 'Purple Rain'}@@ INSERT INTO sampleTable02 value {'Artist' : 'Lizzo','SongTitle' : 'Pink'}"
+        - rollback:
+            partiql:
+              splitStatements: true
+              endDelimiter: "@@"
+              partiql: "DELETE FROM sampleTable02 WHERE Artist='Prince' AND SongTitle='Purple Rain'@@ DELETE FROM sampleTable02 WHERE Artist='Lizzo' AND SongTitle='Pink'"
+              
+- changeSet:
+      id: 2
+      author: asmith
+      changes:
+        - partiqlFile:
+            path: "test.partiql"
+            splitStatements: true
+            endDelimiter: "@@"
+            relativeToChangelogFile: true
+        - rollback:
+            partiqlFile:
+              path: "test-rollback.partiql"
+              splitStatements: true
+              endDelimiter: "@@"
+              relativeToChangelogFile: true

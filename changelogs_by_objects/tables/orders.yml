@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: asmith
+      changes:
+        - createDynamoTable:
+            tableName: Orders
+            keySchema:
+              hashAttributeName: orderId
+            attributeDefinitions:
+              - attributeDefinition:
+                  attributeName: orderId
+                  attributeType: S
+            provisionedThroughput:
+                readCapacityUnits: 10
+                writeCapacityUnits: 10
+      rollback:
+        deleteDynamoTable:
+          tableName: Orders

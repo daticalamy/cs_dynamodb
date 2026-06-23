@@ -63,11 +63,11 @@ databaseChangeLog:
         deleteDynamoTable:
           tableName: sampleTable01
 
-  - changeSet:
-      id: 2
-      author: asmith
-      changes:
-        - deleteDynamoTable:
-            tableName: sampleTable01
-      rollback:
-        empty
+#  - changeSet:
+#      id: 2
+#      author: asmith
+#      changes:
+#        - deleteDynamoTable:
+#            tableName: sampleTable01
+#      rollback:
+#        empty
